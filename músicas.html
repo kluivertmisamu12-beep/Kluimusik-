@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Músicas - Kluimusik</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b10;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 25px 20px;
+      background: #15151d;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    header p {
+      color: #aaa;
+    }
+
+    .voltar {
+      display: inline-block;
+      margin-top: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .musica {
+      background: #171720;
+      border: 1px solid #292936;
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 15px;
+    }
+
+    .musica h2 {
+      margin: 0 0 8px;
+    }
+
+    .musica p {
+      color: #aaa;
+      margin-bottom: 15px;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🎵 Músicas</h1>
+    <p>Ouve as músicas disponíveis na Kluimusik</p>
+
+    <a class="voltar" href="index.html">← Voltar para início</a>
+  </header>
+
+  <main class="container">
+
+    <div class="musica">
+      <h2>🎧 Primeira música</h2>
+      <p>Artista: Kluimusik</p>
+
+      <audio controls>
+        <source src="musicas/primeira-musica.mp3" type="audio/mpeg">
+        O teu navegador não suporta áudio.
+      </audio>
+    </div>
+
+    <div class="musica">
+      <h2>🎧 Segunda música</h2>
+      <p>Artista: Kluimusik</p>
+
+      <audio controls>
+        <source src="musicas/segunda-musica.mp3" type="audio/mpeg">
+        O teu navegador não suporta áudio.
+      </audio>
+    </div>
+
+  </main>
+
+</body>
+</html>
