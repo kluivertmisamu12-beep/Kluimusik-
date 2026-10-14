@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artistas - Kluimusik</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b10;
+      color: white;
+    }
+
+    header {
+      padding: 30px 18px;
+      text-align: center;
+      background: #15151d;
+      border-bottom: 1px solid #292933;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin: 0 0 12px;
+    }
+
+    header p {
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    .voltar {
+      display: inline-block;
+      margin-top: 12px;
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 18px;
+    }
+
+    .intro {
+      margin-bottom: 25px;
+    }
+
+    .artistas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .artista {
+      background: #15151d;
+      border: 1px solid #292933;
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .icone {
+      font-size: 42px;
+    }
+
+    .artista h2 {
+      margin: 12px 0 8px;
+    }
+
+    .artista p {
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    .estado {
+      color: #ff9d36;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      padding: 25px;
+      border-top: 1px solid #292933;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎤 Artistas Kluimusik</h1>
+    <p>Descobre os artistas e os talentos da nossa plataforma.</p>
+    <a class="voltar" href="index.html">← Voltar para início</a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>🌟 Conhece os artistas</h2>
+      <p>Um espaço para descobrir novas vozes, novos estilos e novas músicas.</p>
+    </section>
+
+    <section class="artistas">
+      <article class="artista">
+        <div class="icone">🎙️</div>
+        <h2>Artista de exemplo 1</h2>
+        <p>Estilo: Rap / Trap</p>
+        <span class="estado">Perfil de demonstração</span>
+      </article>
+
+      <article class="artista">
+        <div class="icone">🎧</div>
+        <h2>Artista de exemplo 2</h2>
+        <p>Estilo: Afro House</p>
+        <span class="estado">Perfil de demonstração</span>
+      </article>
+
+      <article class="artista">
+        <div class="icone">🎼</div>
+        <h2>Artista de exemplo 3</h2>
+        <p>Estilo: R&B / Soul</p>
+        <span class="estado">Perfil de demonstração</span>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Kluimusik — Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
